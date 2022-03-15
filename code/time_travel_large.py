@@ -21,7 +21,7 @@ def net_plot(port_net_worth, acc_net_worth):
 
 def load_stocks(l=[]):
     big_df = pd.DataFrame()
-    data_folder_path = r"C:\Users\Konpoul\Desktop\Master\prog-ds\Projects-2021\Python\Stock_Market_data\Stocks"
+    data_folder_path = r"...\Stock_Market_data\Stocks" # Adjust according to your system.
     for txt in l :
         path = os.path.join(data_folder_path, txt)
         try:
@@ -227,7 +227,7 @@ ax.step(x=plot_dates, y=port_net_worth, where='post', color='orange', label='Por
 ax.set_yscale('log')
 logfmt = ticker.LogFormatterExponent(base=10.0, labelOnlyBase=True)
 ax.yaxis.set_major_formatter(logfmt)
-ax.set_ylabel("$10^x$")
+ax.set_ylabel("$10^x$ \$")
 ax.fill_between(plot_dates , acc_net_worth , color='blue', step="post")
 ax.fill_between(plot_dates , port_net_worth, acc_net_worth, color='orange', step='post') #, acc_net_worth
 
