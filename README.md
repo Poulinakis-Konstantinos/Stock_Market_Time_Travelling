@@ -5,6 +5,8 @@ What are you going to buy ? How will you become a billionare at last ?
 
 I've got the answer for you and you can verify it too with this Python simulation. Your grand-grand-grand children will thank you !
 
+![alt text](https://github.com/Poulinakis-Konstantinos/Stock_Market_Time_Travelling/blob/main/results/small_value_graph.png)
+
 ### You have this *[financial dataset](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs/version/3)* with you.
 We will use this in order to analyze and pick our stocks. We also use it to run the stock market simulation.
 
