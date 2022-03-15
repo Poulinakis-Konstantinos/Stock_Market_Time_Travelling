@@ -230,6 +230,9 @@ ax.yaxis.set_major_formatter(logfmt)
 ax.set_ylabel("$10^x$")
 ax.fill_between(plot_dates , acc_net_worth , color='blue', step="post")
 ax.fill_between(plot_dates , port_net_worth, acc_net_worth, color='orange', step='post') #, acc_net_worth
+
+plt.xticks(plot_dates[::500], rotation=25, fontsize=6)
+plt.suptitle('Portfolio and Account Net worth through time (Log Scaled)', fontsize=16)
 # Add legend to plot 
 legend = ax.legend() 
 ax.legend(loc='upper left')
