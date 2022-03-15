@@ -15,7 +15,7 @@ We will use this in order to analyze and pick our stocks. We also use it to run 
  - If during day T-1 you have N stocks of company ABC then you can only buy up to N+1 stocks of ABC during day T.
  - Since we don't have information if Hight price or Low price  happened first , we can only execute the following orders for Intraday trading
  [(buy-open, sell-high), (buy-open, sell-close), (buy-high, sell-close), (sell-open, buy-low),(sell-open, buy-close), (sell-high, buy-close) ]
- <sup>(do not try other combinations eg. (buy-low, sell-high) historical data shows you lose money in the long run ;P)<sup>
+ <sup>(spoiler alert :do not try [buy-high, sell-low], historical data shows you lose money ;P)<sup>
 
 
 ### File description
