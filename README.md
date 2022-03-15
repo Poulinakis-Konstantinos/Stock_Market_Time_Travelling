@@ -28,3 +28,5 @@ We will use this in order to analyze and pick our stocks. We also use it to run 
     - report.pdf :  A report providing a brief explanation of the code and a detailed explanation of the strategy. (Currently in Greek, English to be uploaded).
     - small.txt : A txt containing the sequence of trades we executed ( small is limited to 1000 moves).
     - large.txt : A txt containing the large sequence of trades we executed (up to 1 million).
+
+ ##### You can check your .txt sequences on the following link https://courses.softlab.ntua.gr/progds/2021b/time-travel/. Special thanks to our great professor Nikolaos Papaspyrou for creating the verification page. 
